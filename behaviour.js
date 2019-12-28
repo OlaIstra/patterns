@@ -312,7 +312,7 @@ const commute = new Commute()
 console.log(commute.travel(new Car()))
 console.log(commute.travel(new Bus()))
 
-// 8. template - скелет алгоритма делегирует создание функционала буз изменения базового класса
+// 8. template - скелет алгоритма делегирует создание функционала без изменения базового класса
 
 class Employee {
     constructor(name, salary) {
